@@ -1,0 +1,21 @@
+.conteiner{
+    padding: 0 20px 0 20px;
+}
+@media screen and (max-width: 320px) {
+    .conteiner{
+        margin: 0 auto;
+        width: 320px; 
+     }
+}
+@media screen and (min-width: 480px) {
+    .conteiner{
+        display: flex;
+        width: 768px; 
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .conteiner{
+        width: 1200px; 
+    }
+}

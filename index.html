@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+   
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Seymour+One&display=swap"
+    rel="stylesheet">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+        <link rel="stylesheet" href="./css/main.min.css" />
+
+    <title>ice-crime</title>
+  </head>
+  <body>
+
+   <!--  header -->
+
+
+    <header class="ice__header">
+      <div class=" ice__header-conteiner conteiner">
+      <svg class="logo" width="48px" height="44px">
+        <use href="./images/symbol-defs.svg#icon-Logo"></use>
+      </svg>
+      <button type="button" class="button__burger button">
+      <svg class="icon__burger" width="32px" height="32px">
+        <use href="./images/symbol-defs.svg#icon-burgereva_menu-fill"></use>
+      </svg>
+    </button>
+    <button type="button" class="ice__btn tablet button">
+      Buy now
+    </button>
+  </div>
+    </header>
+
+
+<!-- Heroi  -->
+
+
+    <section class="ice__heroi section">
+      <div class="heroi__conteiner conteiner ">
+        <div class="ice__title-box">
+          <h1 class="ice_heroi-title">
+            ice cream
+            made with
+          </h1>
+          <h1 class="ice_heroi-title heroi__font">
+            passion
+          </h1>
+        </div>
+
+        <ul class="heroi__list-text list">
+          <li class="heroi__items">
+            <a href="" class="heroi__link link">
+              Products
+            </a>
+          </li>
+          <li class="heroi__items">
+            <a href="" class="heroi__question">How it’s made?</a>
+          </li>
+        </ul>
+        
+      
+      <ul class=" heroi__list-img list">
+        <li class="heroi__items-img ">
+          <picture>
+            <source srcset="./images/desktop@1x.webp desktop@2x.webp 1x,
+          ./images/desktop@2x.webp 2x"
+            media="(min-width:1200px)"
+            type="image/webp"/>
+            <source srcset="./images/ice_desktop@1x.png 1x,
+            ./images/desktop@2x.png 2x"
+            media="(min-width:1200px)"
+            />
+            
+            <source srcset="./images/ice_tablet@1x.webp 1x,
+          ./images/ice_tablet@2x.webp 2x"
+            media="(min-width:768px)"
+            type="image/webp"/>
+            <source srcset="./images/ice_tablet@1x.png 1x,
+            ./images/ice_tablet@2x.png 2x"
+            media="(min-width:768px)"
+            />
+            <source srcset="./images/ice480@1x.webp 1x,
+          ./images/ice480@2x.webp 2x"
+            media="(min-width:480px)"
+            type="image/webp"/>
+            <source srcset="./images/ice480@1x.png 1x,
+            ./images/ice480@2x.png 2x"
+            media="(min-width:480px)"
+            />
+
+            <!-- <source srcset="./images/ice_mobile.webp 1x,
+          ./images/ice_mobile@2x.webp 2x"
+            media="(max-width: 320px)"
+            type="image/webp"/>
+            <source srcset="./images/ice_mobile@1x.png 1x,
+            ./images/ice_mobile@2x.png 2x"
+            media="(max-width: 320px)"/> -->
+            <img class="img__ice" src="./images/ice_mobile@1x.png" alt="">
+
+          </picture>
+        </li>
+        <li class="ice__img">
+           <picture>
+
+            <source srcset="./images/desktop_Крапки@1x.webp 1x,
+          ./images/desktop_Крапки@1x.webp 2x"
+            media="(min-width: 1200px)"
+            type="image/webp"/>
+            <source srcset="./images/desktop_Крапки@1x.png 1x,
+            ./images/desktop_kрапки@2x.png 2x"
+            media="(min-width: 1200px)"/>
+
+            <source srcset="./images/tablet_крапки@1x.webp 1x,
+            ./images/tablet_крапки@2x.webp 2x"
+              media="(min-width: 768x)"
+              type="image/webp"/>
+              <source srcset="./images/tablet_крапки@1x.png 1x,
+              ./images/tablet_крапки@2x.png 2x"
+              media="(min-width: 768px)"/>
+
+              <source srcset="./images/крапки480@1x.webp 1x,
+            ./images/крапки480@2x.webp 2x"
+              media="(min-width: 480x)"
+              type="image/webp"/>
+              <source srcset="./images/крапки480@1x.png 1x,
+              ./images/крапки480@2x.png 2x"
+              media="(min-width: 480px)"/>
+
+
+              <source srcset="./images/points_mob@1x.webp 1x,
+            ./images/points_mob@2x.webp 2x"
+              media="(min-width:320x)"
+              type="image/webp"/>
+              <source srcset="./images/points_mob@1x.png 1x,
+              ./images/points_mob@2x.png 2x"
+              media="(min-width:320px)"/>
+
+
+              <img class="img__points" src="./images/points_mob@1x.png" alt="">
+            </picture>
+        </li>
+        
+        <li class="icecream__img tablet">
+          <source srcset="./images/ 1x,
+    ./images/ 2x"
+      media="(min-width: 1200px)"
+      type="image/webp"/>
+      <source srcset="./images/ 1x,
+      ./images/ 2x"
+      media="(min-width: 1200px)"/>
+
+      <source srcset="./images/tabletмного мороженок 1@1x.webp 1x,
+      ./images/tabletмного мороженок 1@2x.webp 2x"
+        media="(min-width: 768x)"
+        type="image/webp"/>
+        <source srcset="./images/tabletмного мороженок 1@1x.png 1x,
+        ./images/tabletмного мороженок 1@2x.png 2x"
+        media="(min-width: 768px)"/>
+          <img class="img__manyice" src="./images/tabletмного мороженок 1@1x.png" alt="">
+      </picture>
+        </li>
+      </ul>
+
+     <!--  heroi_tablet -->
+
+      <p class="heroi__text tablet">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+           sed do eiusmod tempor incididunt ut labore et
+      </p>
+      <div class="heroi__chain tablet">
+        <p class="heroi__number" >
+          16
+        </p>        
+        <p class="heroi__location">
+          cafes
+        </p>
+        <p class="heroi__number">
+          23
+        </p>
+        <p class="heroi__location">
+          food trucks
+        </p>
+
+      </div>
+        
+        </div>
+    </section>
+    
+  </body>
+</html>
